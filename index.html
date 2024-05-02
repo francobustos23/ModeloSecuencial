@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Modelo Secuencial Simple</title>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>tensorflow.js Example</h1>
+        <p>Formula: y = 2x - 3</p>
+        <div class="centrar">
+            <button id="entrenar_modelo">Entrenar Modelo</button>
+            <input type="number" id="input_number" required>
+            <button id="predict_button">Predecir</button>
+        </div>
+        <div id="output_field"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
